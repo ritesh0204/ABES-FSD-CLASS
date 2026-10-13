@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head {
+            text-align: center;
+        }
+        .container {
+            border: 2px solid red;
+            height: 600px;
+            width: 500px;
+            background-color: yellowgreen;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="head">online shop</h1>
+    <div class="container">
+        <script>
+            const price = {
+                tea: 120,
+                coffe: 500,
+                rice: 600,
+                sugar: 700
+            }
+
+            let output = "";
+            for (let key in price) {
+                output += key + ": " + price[key] + "<br>";
+            }
+            document.write(output);
+        </script>
+
+    </div>
+    <div>
+        <script>
+
+        </script>
+    </div>  
+</body>
+</html>
